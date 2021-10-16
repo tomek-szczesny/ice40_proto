@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name ice40)(type KiCad)(uri ${KIPRJMOD}/ice40.pretty)(options "")(descr ""))
+)
