@@ -1699,15 +1699,15 @@ Wire Wire Line
 	9800 3550 9900 3550
 Text Label 12200 2650 0    50   ~ 0
 G0
-Text Label 12200 5400 0    50   ~ 0
+Text Label 12200 5100 0    50   ~ 0
 G2
-Text Label 12200 5500 0    50   ~ 0
+Text Label 12200 4900 0    50   ~ 0
 G3
 Text Label 12200 2950 0    50   ~ 0
 G4
-Text Label 12200 5600 0    50   ~ 0
+Text Label 12200 5300 0    50   ~ 0
 G5
-Text Label 12200 6000 0    50   ~ 0
+Text Label 12200 5600 0    50   ~ 0
 G6
 Text Label 12200 2850 0    50   ~ 0
 G7
@@ -1717,7 +1717,7 @@ Text Label 12200 3250 0    50   ~ 0
 R0
 Text Label 12200 3350 0    50   ~ 0
 R1
-Text Label 12200 6200 0    50   ~ 0
+Text Label 12200 5700 0    50   ~ 0
 R2
 Text Label 12200 5800 0    50   ~ 0
 R3
@@ -1727,9 +1727,9 @@ Text Label 12200 1250 0    50   ~ 0
 R5
 Text Label 12200 3150 0    50   ~ 0
 R6
-Text Label 12200 5700 0    50   ~ 0
+Text Label 12200 6000 0    50   ~ 0
 R7
-Text Label 12200 5300 0    50   ~ 0
+Text Label 12200 4500 0    50   ~ 0
 B0
 Text Label 12200 2250 0    50   ~ 0
 B1
@@ -1805,9 +1805,9 @@ Wire Wire Line
 	12200 5600 12600 5600
 Wire Wire Line
 	12200 5700 12600 5700
-Text Label 12200 5100 0    50   ~ 0
+Text Label 12200 4800 0    50   ~ 0
 H_SYNC
-Text Label 12200 4900 0    50   ~ 0
+Text Label 12200 4700 0    50   ~ 0
 V_SYNC
 Text Label 12200 2050 0    50   ~ 0
 DEN
@@ -1829,4 +1829,6 @@ Wire Wire Line
 	12200 5500 12600 5500
 Wire Wire Line
 	12200 5400 12600 5400
+Wire Wire Line
+	12200 4500 12600 4500
 $EndSCHEMATC
