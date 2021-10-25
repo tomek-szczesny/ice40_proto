@@ -1,0 +1,552 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Barrel_Jack_Switch J?
+U 1 1 61B8F6E5
+P 1600 1800
+AR Path="/61B8F6E5" Ref="J?"  Part="1" 
+AR Path="/61B4159A/61B8F6E5" Ref="J201"  Part="1" 
+F 0 "J201" H 1657 2117 50  0000 C CNN
+F 1 "Barrel_Jack_Switch" H 1657 2026 50  0000 C CNN
+F 2 "Connector_BarrelJack:BarrelJack_Horizontal" H 1650 1760 50  0001 C CNN
+F 3 "~" H 1650 1760 50  0001 C CNN
+	1    1600 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Regulator_Switching:ST1S10PHR U?
+U 1 1 61B8F6EB
+P 4100 1800
+AR Path="/61B8F6EB" Ref="U?"  Part="1" 
+AR Path="/61B4159A/61B8F6EB" Ref="U202"  Part="1" 
+F 0 "U202" H 4100 2142 50  0000 C CNN
+F 1 "ST1S10PHR" H 4100 2051 50  0000 C CNN
+F 2 "Package_SO:TI_SO-PowerPAD-8" H 4225 1450 50  0001 L CIN
+F 3 "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00169322.pdf" H 4100 1800 50  0001 C CNN
+	1    4100 1800
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:L L?
+U 1 1 61B8F6F1
+P 4850 1700
+AR Path="/61B8F6F1" Ref="L?"  Part="1" 
+AR Path="/61B4159A/61B8F6F1" Ref="L201"  Part="1" 
+F 0 "L201" V 5040 1700 50  0000 C CNN
+F 1 "4u7" V 4949 1700 50  0000 C CNN
+F 2 "" H 4850 1700 50  0001 C CNN
+F 3 "~" H 4850 1700 50  0001 C CNN
+	1    4850 1700
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61B8F6F7
+P 2950 2300
+AR Path="/61B8F6F7" Ref="C?"  Part="1" 
+AR Path="/61B4159A/61B8F6F7" Ref="C203"  Part="1" 
+F 0 "C203" H 3065 2346 50  0000 L CNN
+F 1 "100n" H 3065 2255 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2988 2150 50  0001 C CNN
+F 3 "~" H 2950 2300 50  0001 C CNN
+	1    2950 2300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	1900 1900 2000 1900
+Wire Wire Line
+	2000 1900 2000 2550
+$Comp
+L power:GND #PWR?
+U 1 1 61B8F6FF
+P 2000 2550
+AR Path="/61B8F6FF" Ref="#PWR?"  Part="1" 
+AR Path="/61B4159A/61B8F6FF" Ref="#PWR0116"  Part="1" 
+F 0 "#PWR0116" H 2000 2300 50  0001 C CNN
+F 1 "GND" H 2005 2377 50  0000 C CNN
+F 2 "" H 2000 2550 50  0001 C CNN
+F 3 "" H 2000 2550 50  0001 C CNN
+	1    2000 2550
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61B8F705
+P 2950 2450
+AR Path="/61B8F705" Ref="#PWR?"  Part="1" 
+AR Path="/61B4159A/61B8F705" Ref="#PWR0117"  Part="1" 
+F 0 "#PWR0117" H 2950 2200 50  0001 C CNN
+F 1 "GND" H 2955 2277 50  0000 C CNN
+F 2 "" H 2950 2450 50  0001 C CNN
+F 3 "" H 2950 2450 50  0001 C CNN
+	1    2950 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3600 1800 2950 1800
+Wire Wire Line
+	3600 1700 2750 1700
+Wire Wire Line
+	2950 1800 2950 2000
+$Comp
+L power:GND #PWR?
+U 1 1 61B8F70E
+P 2750 2450
+AR Path="/61B8F70E" Ref="#PWR?"  Part="1" 
+AR Path="/61B4159A/61B8F70E" Ref="#PWR0118"  Part="1" 
+F 0 "#PWR0118" H 2750 2200 50  0001 C CNN
+F 1 "GND" H 2755 2277 50  0000 C CNN
+F 2 "" H 2750 2450 50  0001 C CNN
+F 3 "" H 2750 2450 50  0001 C CNN
+	1    2750 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 61B8F714
+P 2750 2300
+AR Path="/61B8F714" Ref="C?"  Part="1" 
+AR Path="/61B4159A/61B8F714" Ref="C201"  Part="1" 
+F 0 "C201" H 2635 2254 50  0000 R CNN
+F 1 "4u7" H 2635 2345 50  0000 R CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 2788 2150 50  0001 C CNN
+F 3 "~" H 2750 2300 50  0001 C CNN
+	1    2750 2300
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	2750 1700 2750 2150
+Wire Wire Line
+	2950 1800 2950 1500
+Connection ~ 2950 1800
+Wire Wire Line
+	2750 1700 2750 1500
+Connection ~ 2750 1700
+$Comp
+L power:+12V #PWR?
+U 1 1 61B8F71F
+P 2750 1500
+AR Path="/61B8F71F" Ref="#PWR?"  Part="1" 
+AR Path="/61B4159A/61B8F71F" Ref="#PWR0119"  Part="1" 
+F 0 "#PWR0119" H 2750 1350 50  0001 C CNN
+F 1 "+12V" H 2765 1673 50  0000 C CNN
+F 2 "" H 2750 1500 50  0001 C CNN
+F 3 "" H 2750 1500 50  0001 C CNN
+	1    2750 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 61B8F725
+P 2950 1500
+AR Path="/61B8F725" Ref="#PWR?"  Part="1" 
+AR Path="/61B4159A/61B8F725" Ref="#PWR0123"  Part="1" 
+F 0 "#PWR0123" H 2950 1350 50  0001 C CNN
+F 1 "+12V" H 2965 1673 50  0000 C CNN
+F 2 "" H 2950 1500 50  0001 C CNN
+F 3 "" H 2950 1500 50  0001 C CNN
+	1    2950 1500
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+12V #PWR?
+U 1 1 61B8F72B
+P 2100 1600
+AR Path="/61B8F72B" Ref="#PWR?"  Part="1" 
+AR Path="/61B4159A/61B8F72B" Ref="#PWR0124"  Part="1" 
+F 0 "#PWR0124" H 2100 1450 50  0001 C CNN
+F 1 "+12V" H 2115 1773 50  0000 C CNN
+F 2 "" H 2100 1600 50  0001 C CNN
+F 3 "" H 2100 1600 50  0001 C CNN
+	1    2100 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2100 1600 2100 1700
+Wire Wire Line
+	2100 1700 1900 1700
+Wire Wire Line
+	4700 1700 4600 1700
+Wire Wire Line
+	3600 2000 2950 2000
+Connection ~ 2950 2000
+Wire Wire Line
+	2950 2000 2950 2150
+Wire Wire Line
+	3600 1900 3550 1900
+Wire Wire Line
+	3550 1900 3550 2450
+$Comp
+L power:GND #PWR?
+U 1 1 61B8F739
+P 3550 2450
+AR Path="/61B8F739" Ref="#PWR?"  Part="1" 
+AR Path="/61B4159A/61B8F739" Ref="#PWR0125"  Part="1" 
+F 0 "#PWR0125" H 3550 2200 50  0001 C CNN
+F 1 "GND" H 3555 2277 50  0000 C CNN
+F 2 "" H 3550 2450 50  0001 C CNN
+F 3 "" H 3550 2450 50  0001 C CNN
+	1    3550 2450
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61B8F73F
+P 4100 2450
+AR Path="/61B8F73F" Ref="#PWR?"  Part="1" 
+AR Path="/61B4159A/61B8F73F" Ref="#PWR0143"  Part="1" 
+F 0 "#PWR0143" H 4100 2200 50  0001 C CNN
+F 1 "GND" H 4105 2277 50  0000 C CNN
+F 2 "" H 4100 2450 50  0001 C CNN
+F 3 "" H 4100 2450 50  0001 C CNN
+	1    4100 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4100 2200 4100 2350
+Wire Wire Line
+	4000 2200 4000 2350
+Wire Wire Line
+	4000 2350 4100 2350
+Connection ~ 4100 2350
+Wire Wire Line
+	4100 2350 4100 2450
+Wire Wire Line
+	4100 2350 4200 2350
+Wire Wire Line
+	4200 2350 4200 2200
+$Comp
+L Device:C C?
+U 1 1 61B8F74C
+P 5350 2100
+AR Path="/61B8F74C" Ref="C?"  Part="1" 
+AR Path="/61B4159A/61B8F74C" Ref="C206"  Part="1" 
+F 0 "C206" H 5465 2146 50  0000 L CNN
+F 1 "22u" H 5465 2055 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 5388 1950 50  0001 C CNN
+F 3 "~" H 5350 2100 50  0001 C CNN
+	1    5350 2100
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61B8F752
+P 4950 1900
+AR Path="/61B8F752" Ref="R?"  Part="1" 
+AR Path="/61B4159A/61B8F752" Ref="R202"  Part="1" 
+F 0 "R202" V 4850 1900 50  0000 C CNN
+F 1 "150k" V 5050 1900 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4880 1900 50  0001 C CNN
+F 3 "~" H 4950 1900 50  0001 C CNN
+	1    4950 1900
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R R?
+U 1 1 61B8F758
+P 4700 2150
+AR Path="/61B8F758" Ref="R?"  Part="1" 
+AR Path="/61B4159A/61B8F758" Ref="R201"  Part="1" 
+F 0 "R201" V 4600 2150 50  0000 C CNN
+F 1 "47k" V 4800 2150 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 4630 2150 50  0001 C CNN
+F 3 "~" H 4700 2150 50  0001 C CNN
+	1    4700 2150
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61B8F75E
+P 4700 2450
+AR Path="/61B8F75E" Ref="#PWR?"  Part="1" 
+AR Path="/61B4159A/61B8F75E" Ref="#PWR0145"  Part="1" 
+F 0 "#PWR0145" H 4700 2200 50  0001 C CNN
+F 1 "GND" H 4705 2277 50  0000 C CNN
+F 2 "" H 4700 2450 50  0001 C CNN
+F 3 "" H 4700 2450 50  0001 C CNN
+	1    4700 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2450 4700 2300
+Wire Wire Line
+	4800 1900 4700 1900
+Wire Wire Line
+	4700 2000 4700 1900
+Connection ~ 4700 1900
+Wire Wire Line
+	4700 1900 4600 1900
+Wire Wire Line
+	5000 1700 5350 1700
+Wire Wire Line
+	5350 1700 5350 1900
+Wire Wire Line
+	5350 1900 5100 1900
+Connection ~ 5350 1900
+Wire Wire Line
+	5350 1900 5350 1950
+$Comp
+L power:GND #PWR?
+U 1 1 61B8F76E
+P 5350 2450
+AR Path="/61B8F76E" Ref="#PWR?"  Part="1" 
+AR Path="/61B4159A/61B8F76E" Ref="#PWR0146"  Part="1" 
+F 0 "#PWR0146" H 5350 2200 50  0001 C CNN
+F 1 "GND" H 5355 2277 50  0000 C CNN
+F 2 "" H 5350 2450 50  0001 C CNN
+F 3 "" H 5350 2450 50  0001 C CNN
+	1    5350 2450
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 2450 5350 2250
+$Comp
+L ice40-rescue:+3.3V-power #PWR?
+U 1 1 61B8F775
+P 5350 1600
+AR Path="/61B8F775" Ref="#PWR?"  Part="1" 
+AR Path="/61B4159A/61B8F775" Ref="#PWR0147"  Part="1" 
+F 0 "#PWR0147" H 5350 1450 50  0001 C CNN
+F 1 "+3.3V" H 5365 1773 50  0000 C CNN
+F 2 "" H 5350 1600 50  0001 C CNN
+F 3 "" H 5350 1600 50  0001 C CNN
+	1    5350 1600
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5350 1600 5350 1700
+Connection ~ 5350 1700
+Text Notes 3850 1350 0    50   ~ 0
+Vout=(Rt/Rb+1)*Vfb\nVfb=0.8V
+$Comp
+L ice40-rescue:TLV71312PDBV-Regulator_Linear U?
+U 1 1 61BC8D50
+P 4400 3850
+AR Path="/61BC8D50" Ref="U?"  Part="1" 
+AR Path="/61B4159A/61BC8D50" Ref="U203"  Part="1" 
+F 0 "U203" H 4400 4192 50  0000 C CNN
+F 1 "TLV71312PDBV" H 4400 4101 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 4400 4175 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv713p.pdf" H 4400 3900 50  0001 C CNN
+	1    4400 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L ice40-rescue:TLV71325PDBV-Regulator_Linear U?
+U 1 1 61BC8D56
+P 3250 3850
+AR Path="/61BC8D56" Ref="U?"  Part="1" 
+AR Path="/61B4159A/61BC8D56" Ref="U201"  Part="1" 
+F 0 "U201" H 3250 4192 50  0000 C CNN
+F 1 "TLV71325PDBV" H 3250 4101 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-23-5" H 3250 4175 50  0001 C CIN
+F 3 "http://www.ti.com/lit/ds/symlink/tlv713p.pdf" H 3250 3900 50  0001 C CNN
+	1    3250 3850
+	1    0    0    -1  
+$EndComp
+$Comp
+L ice40-rescue:+2V5-power #PWR?
+U 1 1 61BC8D5C
+P 3650 3600
+AR Path="/61BC8D5C" Ref="#PWR?"  Part="1" 
+AR Path="/61B4159A/61BC8D5C" Ref="#PWR0148"  Part="1" 
+F 0 "#PWR0148" H 3650 3450 50  0001 C CNN
+F 1 "+2V5" H 3665 3773 50  0000 C CNN
+F 2 "" H 3650 3600 50  0001 C CNN
+F 3 "" H 3650 3600 50  0001 C CNN
+	1    3650 3600
+	1    0    0    -1  
+$EndComp
+$Comp
+L ice40-rescue:GND-power #PWR?
+U 1 1 61BC8D62
+P 3250 4200
+AR Path="/61BC8D62" Ref="#PWR?"  Part="1" 
+AR Path="/61B4159A/61BC8D62" Ref="#PWR0149"  Part="1" 
+F 0 "#PWR0149" H 3250 3950 50  0001 C CNN
+F 1 "GND" H 3255 4027 50  0000 C CNN
+F 2 "" H 3250 4200 50  0001 C CNN
+F 3 "" H 3250 4200 50  0001 C CNN
+	1    3250 4200
+	1    0    0    -1  
+$EndComp
+$Comp
+L ice40-rescue:GND-power #PWR?
+U 1 1 61BC8D68
+P 4400 4200
+AR Path="/61BC8D68" Ref="#PWR?"  Part="1" 
+AR Path="/61B4159A/61BC8D68" Ref="#PWR0150"  Part="1" 
+F 0 "#PWR0150" H 4400 3950 50  0001 C CNN
+F 1 "GND" H 4405 4027 50  0000 C CNN
+F 2 "" H 4400 4200 50  0001 C CNN
+F 3 "" H 4400 4200 50  0001 C CNN
+	1    4400 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4400 4200 4400 4150
+Wire Wire Line
+	3250 4200 3250 4150
+Wire Wire Line
+	3550 3750 3650 3750
+Wire Wire Line
+	4100 3750 4050 3750
+Wire Wire Line
+	4100 3850 4050 3850
+Wire Wire Line
+	4050 3850 4050 3750
+Wire Wire Line
+	2950 3750 2850 3750
+Wire Wire Line
+	2850 3750 2850 3850
+Wire Wire Line
+	2950 3850 2850 3850
+Wire Wire Line
+	4700 3750 4800 3750
+Wire Wire Line
+	4800 3750 4800 3650
+$Comp
+L ice40-rescue:+1V2-power #PWR?
+U 1 1 61BC8D79
+P 4800 3650
+AR Path="/61BC8D79" Ref="#PWR?"  Part="1" 
+AR Path="/61B4159A/61BC8D79" Ref="#PWR0151"  Part="1" 
+F 0 "#PWR0151" H 4800 3500 50  0001 C CNN
+F 1 "+1V2" H 4815 3823 50  0000 C CNN
+F 2 "" H 4800 3650 50  0001 C CNN
+F 3 "" H 4800 3650 50  0001 C CNN
+	1    4800 3650
+	1    0    0    -1  
+$EndComp
+$Comp
+L ice40-rescue:+3.3V-power #PWR?
+U 1 1 61BC8D7F
+P 2850 3600
+AR Path="/61BC8D7F" Ref="#PWR?"  Part="1" 
+AR Path="/61B4159A/61BC8D7F" Ref="#PWR0152"  Part="1" 
+F 0 "#PWR0152" H 2850 3450 50  0001 C CNN
+F 1 "+3.3V" H 2865 3773 50  0000 C CNN
+F 2 "" H 2850 3600 50  0001 C CNN
+F 3 "" H 2850 3600 50  0001 C CNN
+	1    2850 3600
+	1    0    0    -1  
+$EndComp
+Connection ~ 2850 3750
+$Comp
+L ice40-rescue:C_Small-Device C?
+U 1 1 61BC8D86
+P 4800 4050
+AR Path="/61BC8D86" Ref="C?"  Part="1" 
+AR Path="/61B4159A/61BC8D86" Ref="C205"  Part="1" 
+F 0 "C205" H 4750 4000 50  0000 R CNN
+F 1 "100n" H 4750 4150 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 4800 4050 50  0001 C CNN
+F 3 "~" H 4800 4050 50  0001 C CNN
+	1    4800 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L ice40-rescue:GND-power #PWR?
+U 1 1 61BC8D8C
+P 4800 4200
+AR Path="/61BC8D8C" Ref="#PWR?"  Part="1" 
+AR Path="/61B4159A/61BC8D8C" Ref="#PWR0153"  Part="1" 
+F 0 "#PWR0153" H 4800 3950 50  0001 C CNN
+F 1 "GND" H 4805 4027 50  0000 C CNN
+F 2 "" H 4800 4200 50  0001 C CNN
+F 3 "" H 4800 4200 50  0001 C CNN
+	1    4800 4200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	4800 4200 4800 4150
+Wire Wire Line
+	4800 3950 4800 3750
+Connection ~ 4800 3750
+$Comp
+L ice40-rescue:C_Small-Device C?
+U 1 1 61BC8D95
+P 3650 4050
+AR Path="/61BC8D95" Ref="C?"  Part="1" 
+AR Path="/61B4159A/61BC8D95" Ref="C204"  Part="1" 
+F 0 "C204" H 3600 4000 50  0000 R CNN
+F 1 "100n" H 3600 4150 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 3650 4050 50  0001 C CNN
+F 3 "~" H 3650 4050 50  0001 C CNN
+	1    3650 4050
+	-1   0    0    1   
+$EndComp
+$Comp
+L ice40-rescue:GND-power #PWR?
+U 1 1 61BC8D9B
+P 3650 4200
+AR Path="/61BC8D9B" Ref="#PWR?"  Part="1" 
+AR Path="/61B4159A/61BC8D9B" Ref="#PWR0154"  Part="1" 
+F 0 "#PWR0154" H 3650 3950 50  0001 C CNN
+F 1 "GND" H 3655 4027 50  0000 C CNN
+F 2 "" H 3650 4200 50  0001 C CNN
+F 3 "" H 3650 4200 50  0001 C CNN
+	1    3650 4200
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	3650 4200 3650 4150
+Wire Wire Line
+	3650 3950 3650 3750
+Connection ~ 3650 3750
+$Comp
+L ice40-rescue:C_Small-Device C?
+U 1 1 61BC8DA4
+P 2850 4050
+AR Path="/61BC8DA4" Ref="C?"  Part="1" 
+AR Path="/61B4159A/61BC8DA4" Ref="C202"  Part="1" 
+F 0 "C202" H 2800 4000 50  0000 R CNN
+F 1 "100n" H 2800 4150 50  0000 R CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 2850 4050 50  0001 C CNN
+F 3 "~" H 2850 4050 50  0001 C CNN
+	1    2850 4050
+	1    0    0    1   
+$EndComp
+$Comp
+L ice40-rescue:GND-power #PWR?
+U 1 1 61BC8DAA
+P 2850 4200
+AR Path="/61BC8DAA" Ref="#PWR?"  Part="1" 
+AR Path="/61B4159A/61BC8DAA" Ref="#PWR0155"  Part="1" 
+F 0 "#PWR0155" H 2850 3950 50  0001 C CNN
+F 1 "GND" H 2855 4027 50  0000 C CNN
+F 2 "" H 2850 4200 50  0001 C CNN
+F 3 "" H 2850 4200 50  0001 C CNN
+	1    2850 4200
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2850 4200 2850 4150
+Wire Wire Line
+	2850 3950 2850 3850
+Connection ~ 2850 3850
+Text Label 2650 3750 2    50   ~ 0
+VCCS
+Wire Wire Line
+	2850 3600 2850 3750
+Wire Wire Line
+	3650 3600 3650 3750
+Wire Wire Line
+	2650 3750 2850 3750
+Wire Wire Line
+	4050 3750 3650 3750
+Connection ~ 4050 3750
+$EndSCHEMATC
