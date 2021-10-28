@@ -1,4 +1,5 @@
 (sym_lib_table
   (lib (name ice40)(type Legacy)(uri /home/mctom/home-arm/git/ice40/proto_fpd_link/ice40.lib)(options "")(descr ""))
   (lib (name ice40-rescue)(type Legacy)(uri /home/mctom/home-arm/git/ice40/proto_fpd_link/ice40-rescue.lib)(options "")(descr ""))
+  (lib (name ice40_programmer-rescue)(type Legacy)(uri ${KIPRJMOD}/ice40_programmer-rescue.lib)(options "")(descr ""))
 )
