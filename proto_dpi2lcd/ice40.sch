@@ -467,7 +467,7 @@ U 1 1 61735866
 P 2450 5100
 F 0 "C101" H 2400 5050 50  0000 R CNN
 F 1 "100n" H 2400 5200 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2450 5100 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2450 5100 50  0001 C CNN
 F 3 "~" H 2450 5100 50  0001 C CNN
 	1    2450 5100
 	0    1    1    0   
@@ -478,7 +478,7 @@ U 1 1 61737D5F
 P 2450 5400
 F 0 "C103" H 2400 5350 50  0000 R CNN
 F 1 "100n" H 2400 5500 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2450 5400 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2450 5400 50  0001 C CNN
 F 3 "~" H 2450 5400 50  0001 C CNN
 	1    2450 5400
 	0    1    1    0   
@@ -489,7 +489,7 @@ U 1 1 6173831A
 P 2450 5700
 F 0 "C105" H 2400 5650 50  0000 R CNN
 F 1 "100n" H 2400 5800 50  0000 R CNN
-F 2 "Capacitor_SMD:C_0603_1608Metric" H 2450 5700 50  0001 C CNN
+F 2 "Capacitor_SMD:C_0402_1005Metric" H 2450 5700 50  0001 C CNN
 F 3 "~" H 2450 5700 50  0001 C CNN
 	1    2450 5700
 	0    1    1    0   
@@ -737,7 +737,7 @@ $Comp
 L ice40-rescue:R_Small-Device R111
 U 1 1 61A3787D
 P 14650 9450
-F 0 "R111" V 14750 9300 50  0000 L CNN
+F 0 "R111" V 14750 9200 50  0000 L CNN
 F 1 "22R" V 14750 9450 50  0000 L CNN
 F 2 "Resistor_SMD:R_0603_1608Metric" H 14650 9450 50  0001 C CNN
 F 3 "~" H 14650 9450 50  0001 C CNN
@@ -977,16 +977,6 @@ Text Label 12200 3100 2    50   ~ 0
 B7
 Text Label 12200 1700 2    50   ~ 0
 CLK
-Text Label 12200 2400 2    50   ~ 0
-B1
-Text Label 12200 2500 2    50   ~ 0
-B2
-Text Label 12200 3400 2    50   ~ 0
-G1
-Text Label 9850 2400 0    50   ~ 0
-G7
-Text Label 9850 3200 0    50   ~ 0
-R6
 Text Label 9850 1700 0    50   ~ 0
 G2
 Text Label 9850 1800 0    50   ~ 0
@@ -1005,16 +995,10 @@ Text Label 12200 2700 2    50   ~ 0
 B3
 Text Label 12200 1800 2    50   ~ 0
 DEN
-Text Label 12200 3300 2    50   ~ 0
-G0
-Text Label 9850 2000 0    50   ~ 0
-G4
-Text Label 9850 2500 0    50   ~ 0
-R0
 Text Label 9850 2600 0    50   ~ 0
 R1
 $Sheet
-S -2700 1150 1700 1550
+S 1350 8200 1700 1550
 U 61B4159A
 F0 "Power" 50
 F1 "power.sch" 50
@@ -1069,23 +1053,23 @@ Wire Wire Line
 Connection ~ 10700 4000
 Wire Wire Line
 	10700 4000 10800 4000
-Text Label 13100 2800 0    50   ~ 0
+Text Label 13100 2600 0    50   ~ 0
 G0
 Text Label 13100 5250 0    50   ~ 0
 G2
 Text Label 13100 5050 0    50   ~ 0
 G3
-Text Label 13100 3100 0    50   ~ 0
+Text Label 13100 3000 0    50   ~ 0
 G4
 Text Label 13100 5450 0    50   ~ 0
 G5
 Text Label 13100 5650 0    50   ~ 0
 G6
-Text Label 13100 3000 0    50   ~ 0
+Text Label 13100 3100 0    50   ~ 0
 G7
-Text Label 13100 2600 0    50   ~ 0
+Text Label 13100 2800 0    50   ~ 0
 G1
-Text Label 13100 3400 0    50   ~ 0
+Text Label 13100 3300 0    50   ~ 0
 R0
 Text Label 13100 3500 0    50   ~ 0
 R1
@@ -1095,23 +1079,23 @@ Text Label 13100 5950 0    50   ~ 0
 R3
 Text Label 13100 6550 0    50   ~ 0
 R4
-Text Label 13100 1400 0    50   ~ 0
+Text Label 13100 1700 0    50   ~ 0
 R5
-Text Label 13100 3300 0    50   ~ 0
+Text Label 13100 3400 0    50   ~ 0
 R6
 Text Label 13100 6150 0    50   ~ 0
 R7
 Text Label 13100 4650 0    50   ~ 0
 B0
-Text Label 13100 2400 0    50   ~ 0
-B1
 Text Label 13100 2700 0    50   ~ 0
+B1
+Text Label 13100 2400 0    50   ~ 0
 B2
-Text Label 13100 2100 0    50   ~ 0
+Text Label 13100 1900 0    50   ~ 0
 B3
 Text Label 13100 1600 0    50   ~ 0
 B4
-Text Label 13100 1700 0    50   ~ 0
+Text Label 13100 1400 0    50   ~ 0
 B5
 Text Label 13100 1500 0    50   ~ 0
 B6
@@ -1178,7 +1162,7 @@ Text Label 13100 4850 0    50   ~ 0
 V_SYNC
 Text Label 13100 2200 0    50   ~ 0
 DEN
-Text Label 13100 1900 0    50   ~ 0
+Text Label 13100 2100 0    50   ~ 0
 CLK
 Wire Wire Line
 	13100 4850 13600 4850
@@ -1340,17 +1324,6 @@ Wire Wire Line
 Text Label 10150 8550 2    50   ~ 0
 SW1
 $Comp
-L ice40-rescue:+3.3V-power #PWR0139
-U 1 1 61D9CF94
-P 9850 8150
-F 0 "#PWR0139" H 9850 8000 50  0001 C CNN
-F 1 "+3.3V" H 9865 8323 50  0000 C CNN
-F 2 "" H 9850 8150 50  0001 C CNN
-F 3 "" H 9850 8150 50  0001 C CNN
-	1    9850 8150
-	1    0    0    -1  
-$EndComp
-$Comp
 L Switch:SW_Push SW102
 U 1 1 61DA69B8
 P 10400 8800
@@ -1394,17 +1367,6 @@ Wire Wire Line
 	10400 8550 10400 8600
 Text Label 10700 8550 2    50   ~ 0
 SW2
-$Comp
-L ice40-rescue:+3.3V-power #PWR0141
-U 1 1 61DA69DB
-P 10400 8150
-F 0 "#PWR0141" H 10400 8000 50  0001 C CNN
-F 1 "+3.3V" H 10415 8323 50  0000 C CNN
-F 2 "" H 10400 8150 50  0001 C CNN
-F 3 "" H 10400 8150 50  0001 C CNN
-	1    10400 8150
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	11500 8500 12000 8500
 Text Label 13750 9050 2    50   ~ 0
@@ -1912,50 +1874,6 @@ Wire Wire Line
 Wire Wire Line
 	1100 4950 1200 4950
 $Comp
-L Mechanical:MountingHole_Pad H102
-U 1 1 62E33DF4
-P 2800 -750
-F 0 "H102" H 2900 -701 50  0000 L CNN
-F 1 "MountingHole_Pad" H 2900 -792 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2800 -750 50  0001 C CNN
-F 3 "~" H 2800 -750 50  0001 C CNN
-	1    2800 -750
-	1    0    0    -1  
-$EndComp
-$Comp
-L ice40-rescue:GND-power #PWR0110
-U 1 1 62E3CEDD
-P 2800 -650
-F 0 "#PWR0110" H 2800 -900 50  0001 C CNN
-F 1 "GND" H 2805 -823 50  0000 C CNN
-F 2 "" H 2800 -650 50  0001 C CNN
-F 3 "" H 2800 -650 50  0001 C CNN
-	1    2800 -650
-	1    0    0    -1  
-$EndComp
-$Comp
-L Mechanical:MountingHole_Pad H101
-U 1 1 62E4589D
-P 2550 -750
-F 0 "H101" H 2650 -701 50  0000 L CNN
-F 1 "MountingHole_Pad" H 2650 -792 50  0000 L CNN
-F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2550 -750 50  0001 C CNN
-F 3 "~" H 2550 -750 50  0001 C CNN
-	1    2550 -750
-	-1   0    0    -1  
-$EndComp
-$Comp
-L ice40-rescue:GND-power #PWR0108
-U 1 1 62E458A7
-P 2550 -650
-F 0 "#PWR0108" H 2550 -900 50  0001 C CNN
-F 1 "GND" H 2555 -823 50  0000 C CNN
-F 2 "" H 2550 -650 50  0001 C CNN
-F 3 "" H 2550 -650 50  0001 C CNN
-	1    2550 -650
-	-1   0    0    -1  
-$EndComp
-$Comp
 L ice40-rescue:+2V5-power #PWR0113
 U 1 1 6189A20E
 P 11800 4950
@@ -1969,29 +1887,29 @@ $EndComp
 $Comp
 L Device:R_Small R102
 U 1 1 618C51F5
-P 8000 6900
-F 0 "R102" H 8059 6946 50  0000 L CNN
-F 1 "NM" H 8059 6855 50  0000 L CNN
-F 2 "Resistor_SMD:R_0603_1608Metric" H 8000 6900 50  0001 C CNN
-F 3 "~" H 8000 6900 50  0001 C CNN
-	1    8000 6900
+P 7650 6850
+F 0 "R102" H 7709 6896 50  0000 L CNN
+F 1 "NM" H 7709 6805 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 7650 6850 50  0001 C CNN
+F 3 "~" H 7650 6850 50  0001 C CNN
+	1    7650 6850
 	1    0    0    -1  
 $EndComp
 $Comp
 L ice40-rescue:GND-power #PWR0114
 U 1 1 618C5B7A
-P 8000 7000
-F 0 "#PWR0114" H 8000 6750 50  0001 C CNN
-F 1 "GND" H 8005 6827 50  0000 C CNN
-F 2 "" H 8000 7000 50  0001 C CNN
-F 3 "" H 8000 7000 50  0001 C CNN
-	1    8000 7000
+P 7650 6950
+F 0 "#PWR0114" H 7650 6700 50  0001 C CNN
+F 1 "GND" H 7655 6777 50  0000 C CNN
+F 2 "" H 7650 6950 50  0001 C CNN
+F 3 "" H 7650 6950 50  0001 C CNN
+	1    7650 6950
 	1    0    0    -1  
 $EndComp
-Text Label 8000 6600 3    50   ~ 0
+Text Label 7650 6550 3    50   ~ 0
 RSV
 Wire Wire Line
-	8000 6600 8000 6800
+	7650 6550 7650 6750
 NoConn ~ 13600 3200
 Wire Wire Line
 	12650 3600 13600 3600
@@ -2172,8 +2090,6 @@ Wire Wire Line
 Text Label 13250 5750 0    50   ~ 0
 CLOCK
 Wire Wire Line
-	13250 6350 13600 6350
-Wire Wire Line
 	13250 5550 13600 5550
 Wire Wire Line
 	13250 5150 13600 5150
@@ -2231,6 +2147,208 @@ Wire Wire Line
 	8150 3300 8150 3350
 Text Notes 8950 4100 0    50   Italic 0
 CLOCK: \n50Ω Single Ended \nto GBIN5
+$Comp
+L Device:Ferrite_Bead_Small FB101
+U 1 1 619A5736
+P 8600 7200
+F 0 "FB101" V 8363 7200 50  0000 C CNN
+F 1 "Ferrite_Bead_Small" V 8454 7200 50  0000 C CNN
+F 2 "Inductor_SMD:L_1210_3225Metric_Pad1.42x2.65mm_HandSolder" V 8530 7200 50  0001 C CNN
+F 3 "~" H 8600 7200 50  0001 C CNN
+	1    8600 7200
+	0    1    1    0   
+$EndComp
+$Comp
+L ice40-rescue:+3.3V-power #PWR0135
+U 1 1 618ABE9D
+P 8100 7150
+F 0 "#PWR0135" H 8100 7000 50  0001 C CNN
+F 1 "+3.3V" H 8115 7323 50  0000 C CNN
+F 2 "" H 8100 7150 50  0001 C CNN
+F 3 "" H 8100 7150 50  0001 C CNN
+	1    8100 7150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 7200 8100 7150
+Wire Wire Line
+	9450 7200 8950 7200
+Text Label 9450 7200 2    50   ~ 0
+lcd_VCC
+Wire Wire Line
+	8500 7200 8100 7200
+$Comp
+L Device:C C119
+U 1 1 61A22FA5
+P 8950 7400
+AR Path="/61A22FA5" Ref="C119"  Part="1" 
+AR Path="/61B4159A/61A22FA5" Ref="C?"  Part="1" 
+F 0 "C119" H 9065 7446 50  0000 L CNN
+F 1 "22u/25V" H 9065 7355 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1210_3225Metric" H 8988 7250 50  0001 C CNN
+F 3 "~" H 8950 7400 50  0001 C CNN
+	1    8950 7400
+	1    0    0    -1  
+$EndComp
+$Comp
+L ice40-rescue:GND-power #PWR0143
+U 1 1 61A47833
+P 8950 7650
+F 0 "#PWR0143" H 8950 7400 50  0001 C CNN
+F 1 "GND" H 8955 7477 50  0000 C CNN
+F 2 "" H 8950 7650 50  0001 C CNN
+F 3 "" H 8950 7650 50  0001 C CNN
+	1    8950 7650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8950 7650 8950 7550
+Wire Wire Line
+	8950 7250 8950 7200
+Connection ~ 8950 7200
+Wire Wire Line
+	8950 7200 8700 7200
+$Comp
+L Connector_Generic:Conn_01x05 J104
+U 1 1 61A9CF94
+P 6650 8900
+F 0 "J104" H 6568 9317 50  0000 C CNN
+F 1 "LCD_BACKLIGHT" H 6568 9226 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 6650 8900 50  0001 C CNN
+F 3 "~" H 6650 8900 50  0001 C CNN
+	1    6650 8900
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	7400 8700 6850 8700
+Wire Wire Line
+	7400 8700 7400 8650
+$Comp
+L power:+12V #PWR0116
+U 1 1 61B34F7B
+P 7400 8650
+AR Path="/61B34F7B" Ref="#PWR0116"  Part="1" 
+AR Path="/61B4159A/61B34F7B" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0116" H 7400 8500 50  0001 C CNN
+F 1 "+12V" H 7415 8823 50  0000 C CNN
+F 2 "" H 7400 8650 50  0001 C CNN
+F 3 "" H 7400 8650 50  0001 C CNN
+	1    7400 8650
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 8800 6950 8800
+Wire Wire Line
+	6950 8800 6950 9250
+$Comp
+L ice40-rescue:GND-power #PWR0115
+U 1 1 61B9F7ED
+P 6950 9250
+AR Path="/61B9F7ED" Ref="#PWR0115"  Part="1" 
+AR Path="/61B4159A/61B9F7ED" Ref="#PWR?"  Part="1" 
+F 0 "#PWR0115" H 6950 9000 50  0001 C CNN
+F 1 "GND" H 6955 9077 50  0000 C CNN
+F 2 "" H 6950 9250 50  0001 C CNN
+F 3 "" H 6950 9250 50  0001 C CNN
+	1    6950 9250
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6850 8900 7450 8900
+Text Label 7450 8900 2    50   ~ 0
+BL_EN
+Wire Wire Line
+	6850 9000 7450 9000
+Text Label 7450 9000 2    50   ~ 0
+BL_ADJ
+Text Label 13100 3700 0    50   ~ 0
+BL_EN
+$Comp
+L ice40-rescue:GND-power #PWR0108
+U 1 1 62E458A7
+P 1850 10550
+F 0 "#PWR0108" H 1850 10300 50  0001 C CNN
+F 1 "GND" H 1855 10377 50  0000 C CNN
+F 2 "" H 1850 10550 50  0001 C CNN
+F 3 "" H 1850 10550 50  0001 C CNN
+	1    1850 10550
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H101
+U 1 1 62E4589D
+P 1850 10450
+F 0 "H101" H 1950 10499 50  0000 L CNN
+F 1 "MountingHole_Pad" H 1950 10408 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 1850 10450 50  0001 C CNN
+F 3 "~" H 1850 10450 50  0001 C CNN
+	1    1850 10450
+	-1   0    0    -1  
+$EndComp
+$Comp
+L ice40-rescue:GND-power #PWR0110
+U 1 1 62E3CEDD
+P 2100 10550
+F 0 "#PWR0110" H 2100 10300 50  0001 C CNN
+F 1 "GND" H 2105 10377 50  0000 C CNN
+F 2 "" H 2100 10550 50  0001 C CNN
+F 3 "" H 2100 10550 50  0001 C CNN
+	1    2100 10550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:MountingHole_Pad H102
+U 1 1 62E33DF4
+P 2100 10450
+F 0 "H102" H 2200 10499 50  0000 L CNN
+F 1 "MountingHole_Pad" H 2200 10408 50  0000 L CNN
+F 2 "MountingHole:MountingHole_3.2mm_M3_Pad_Via" H 2100 10450 50  0001 C CNN
+F 3 "~" H 2100 10450 50  0001 C CNN
+	1    2100 10450
+	1    0    0    -1  
+$EndComp
+Text Label 12200 2500 2    50   ~ 0
+B2
+Text Label 12200 2400 2    50   ~ 0
+B1
+Text Label 12200 3400 2    50   ~ 0
+G1
+Text Label 12200 3300 2    50   ~ 0
+G0
+Text Label 9850 2000 0    50   ~ 0
+G4
+Text Label 9850 2400 0    50   ~ 0
+G7
+Text Label 9850 2500 0    50   ~ 0
+R0
+Text Label 9850 3200 0    50   ~ 0
+R6
+$Comp
+L ice40-rescue:+3.3V-power #PWR0141
+U 1 1 61DA69DB
+P 10400 8150
+F 0 "#PWR0141" H 10400 8000 50  0001 C CNN
+F 1 "+3.3V" H 10415 8323 50  0000 C CNN
+F 2 "" H 10400 8150 50  0001 C CNN
+F 3 "" H 10400 8150 50  0001 C CNN
+	1    10400 8150
+	1    0    0    -1  
+$EndComp
+$Comp
+L ice40-rescue:+3.3V-power #PWR0139
+U 1 1 61D9CF94
+P 9850 8150
+F 0 "#PWR0139" H 9850 8000 50  0001 C CNN
+F 1 "+3.3V" H 9865 8323 50  0000 C CNN
+F 2 "" H 9850 8150 50  0001 C CNN
+F 3 "" H 9850 8150 50  0001 C CNN
+	1    9850 8150
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13150 6350 13600 6350
+Text Label 13150 6350 0    50   ~ 0
+BL_ADJ
 Wire Bus Line
 	9950 4600 9950 5000
 Wire Bus Line
