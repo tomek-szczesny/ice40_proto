@@ -896,8 +896,8 @@ $Comp
 L Connector:Raspberry_Pi_2_3 J102
 U 1 1 618A6A59
 P 11000 2600
-F 0 "J102" H 11000 4081 50  0000 C CNN
-F 1 "Raspberry_Pi_2_3" H 11000 3990 50  0000 C CNN
+F 0 "J102" H 11450 1300 50  0000 C CNN
+F 1 "Raspberry_Pi_2_3" H 11000 1100 50  0000 C CNN
 F 2 "Connector_IDC:IDC-Header_2x20_P2.54mm_Vertical" H 11000 2600 50  0001 C CNN
 F 3 "https://www.raspberrypi.org/documentation/hardware/raspberrypi/schematics/rpi_SCH_3bplus_1p0_reduced.pdf" H 11000 2600 50  0001 C CNN
 	1    11000 2600
@@ -1055,15 +1055,15 @@ Wire Wire Line
 	10700 4000 10800 4000
 Text Label 13100 2600 0    50   ~ 0
 G0
-Text Label 13100 5250 0    50   ~ 0
+Text Label 13100 4950 0    50   ~ 0
 G2
-Text Label 13100 5050 0    50   ~ 0
+Text Label 13100 5250 0    50   ~ 0
 G3
 Text Label 13100 3000 0    50   ~ 0
 G4
-Text Label 13100 5450 0    50   ~ 0
-G5
 Text Label 13100 5650 0    50   ~ 0
+G5
+Text Label 13100 5450 0    50   ~ 0
 G6
 Text Label 13100 3100 0    50   ~ 0
 G7
@@ -1073,9 +1073,9 @@ Text Label 13100 3300 0    50   ~ 0
 R0
 Text Label 13100 3500 0    50   ~ 0
 R1
-Text Label 13100 5850 0    50   ~ 0
-R2
 Text Label 13100 5950 0    50   ~ 0
+R2
+Text Label 13100 5850 0    50   ~ 0
 R3
 Text Label 13100 6550 0    50   ~ 0
 R4
@@ -1085,7 +1085,7 @@ Text Label 13100 3400 0    50   ~ 0
 R6
 Text Label 13100 6150 0    50   ~ 0
 R7
-Text Label 13100 4650 0    50   ~ 0
+Text Label 13100 5050 0    50   ~ 0
 B0
 Text Label 13100 2700 0    50   ~ 0
 B1
@@ -1156,7 +1156,7 @@ Wire Wire Line
 	13100 5450 13600 5450
 Wire Wire Line
 	13100 5850 13600 5850
-Text Label 13100 4950 0    50   ~ 0
+Text Label 13100 4650 0    50   ~ 0
 H_SYNC
 Text Label 13100 4850 0    50   ~ 0
 V_SYNC
@@ -2110,11 +2110,11 @@ DPI Routing with \ncontrolled impedance\n\nSingle ended \nsingals with 50Ω:\n -
 Wire Notes Line
 	8250 1000 9250 1000
 Wire Notes Line
-	9250 1000 9250 2400
+	9250 1000 9250 2500
 Wire Notes Line
-	9250 2400 8250 2400
+	9250 2500 8250 2500
 Wire Notes Line
-	8250 2400 8250 1000
+	8250 2500 8250 1000
 Text Notes 9700 9350 0    50   Italic 0
 SW1 and SW2 to IOT bank
 Text Label 13250 5150 0    50   ~ 0
